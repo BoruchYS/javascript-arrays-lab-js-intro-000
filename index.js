@@ -15,3 +15,6 @@ function destructivelyRemoveFirstKitten(name){
 function appendKitten(name){
   kittens.splice(name)
 }
+function prependKitten(name){
+  kittens.concat(name)
+}
