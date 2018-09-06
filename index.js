@@ -6,6 +6,6 @@ function destructivelyAppendKitten(name){
 function destructivelyPrependKitten(name){
   kittens.unshift(name)
 }
-function destructivelyRemoveLastKitten(){
+function destructivelyRemoveLastKitten(name){
   kitten.pop()
 }
