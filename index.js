@@ -13,8 +13,10 @@ function destructivelyRemoveFirstKitten(name){
   kittens.shift(name)
 }
 function appendKitten(name){
-  kittens.splice(name)
+  var kittens_new = kittens;
+  kittens_new.push(name)
 }
 function prependKitten(name){
-  kittens.concat(name)
+  var kittens_new = kittens;
+  kittens.unshift(name)
 }
